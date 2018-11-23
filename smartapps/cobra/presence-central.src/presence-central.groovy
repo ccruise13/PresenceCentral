@@ -52,9 +52,9 @@
     author: "Andrew Parker",
     description: "Parent App for Presence Automation.",
    category: "Fun & Social",
-    iconUrl: "https://raw.githubusercontent.com/cobravmax/SmartThings/master/icons/presence.png",
-    iconX2Url: "https://raw.githubusercontent.com/cobravmax/SmartThings/master/icons/presence.png",
-    iconX3Url: "https://raw.githubusercontent.com/cobravmax/SmartThings/master/icons/presence.png",)
+    iconUrl: "https://raw.githubusercontent.com/ccruise13/PresenceCentral/master/icons/presence.png",
+    iconX2Url: "https://raw.githubusercontent.com/ccruise13/PresenceCentral/master/icons/presence.png",
+    iconX3Url: "https://raw.githubusercontent.com/ccruise13/PresenceCentral/master/icons/presence.png",)
 
 preferences {
     
@@ -62,13 +62,13 @@ preferences {
     
     section() {
     
-        paragraph image: "https://raw.githubusercontent.com/cobravmax/SmartThings/master/icons/presence.png",
+        paragraph image: "https://raw.githubusercontent.com/ccruise13/PresenceCentral/master/icons/presence.png",
                   title: "Presence Sensor Control",
                   required: false,
                   "This parent app is a container for all presence child apps"
     }
     section() {
-           paragraph image: "https://raw.githubusercontent.com/cobravmax/SmartThings/master/icons/cobra3.png",
+           paragraph image: "https://raw.githubusercontent.com/ccruise13/PresenceCentral/master/icons/cobra3.png",
                          "Parent Version: 1.0.0 -  Copyright © 2018 Cobra"
     }
         section {
